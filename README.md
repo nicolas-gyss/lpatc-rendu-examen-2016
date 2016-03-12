@@ -1,5 +1,5 @@
-# Numéro de groupe
+# Groupe N°1
 
-- Nom + Prénom + Numéro d'étudiant
+- Gyss Nicolas (Kenshi67)
 - Nom + Prénom + Numéro d'étudiant
 - Nom + Prénom + Numéro d'étudiant
