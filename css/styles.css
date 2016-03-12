@@ -1,0 +1,171 @@
+/* intégration des polices spéciales squirrel*/
+@font-face {
+    font-family: 'grand_hotelregular';
+    src: url('../fonts/grandhotel-regular-webfont.eot');
+    src: url('../fonts/grandhotel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/grandhotel-regular-webfont.woff2') format('woff2'),
+         url('../fonts/grandhotel-regular-webfont.woff') format('woff'),
+         url('../fonts/grandhotel-regular-webfont.ttf') format('truetype'),
+         url('../fonts/grandhotel-regular-webfont.svg#grand_hotelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'muliregular';
+    src: url('../fonts/muli-regular-webfont.eot');
+    src: url('../fonts/muli-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/muli-regular-webfont.woff2') format('woff2'),
+         url('../fonts/muli-regular-webfont.woff') format('woff'),
+         url('../fonts/muli-regular-webfont.ttf') format('truetype'),
+         url('../fonts/muli-regular-webfont.svg#muliregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* fin d'intégration des polices spéciales*/
+
+/* RESET */
+
+html {
+	box-sizing: border-box;
+}
+* {
+	box-sizing: inherit;
+}
+ul,
+ol {
+  padding-left: 2em;
+}
+img {
+  vertical-align: middle;
+}
+/* height auto only for non SVG images */
+img:not([src$=".svg"]) {
+  height: auto;
+}
+blockquote,
+figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+html {
+	background-image:url('../img/fond-carreau.jpg');
+	margin:0px;
+	padding:0px;
+  /* set base font-size to equiv "10px", which is adapted to rem unit */
+  font-size: 62.5%;
+  /* IE9-IE11 math fixing. See http://bit.ly/1g4X0bX */
+  /* thanks to @guardian, @victorbritopro and @eQRoeil */
+  font-size: calc(1em * .625);
+}
+body {
+	
+	margin:0px;
+	padding:0px;
+  font-size: 1.4em;
+  color: #000;
+  font-family:  verdana,helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+/* font-sizing for content */
+p,
+.p-like,
+ul,
+ol,
+dl,
+blockquote,
+pre,
+td,
+th,
+label,
+textarea,
+caption,
+details,
+figure {
+  margin-top: 0.75em;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+em,
+.italic,
+address,
+cite,
+i,
+var {
+  font-style: italic;
+}
+
+b,
+strong {
+  font-weight: inherit;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+
+p:first-child,
+.p-like:first-child,
+ul:first-child,
+ol:first-child,
+dl:first-child,
+blockquote:first-child,
+pre:first-child,
+h1:first-child,
+.h1-like:first-child,
+h2:first-child,
+.h2-like:first-child,
+h3:first-child,
+.h3-like:first-child,
+h4:first-child,
+.h4-like:first-child,
+h5:first-child,
+.h5-like:first-child,
+h6:first-child,
+.h6-like:first-child {
+  margin-top: 0;
+}
+
+/* avoid margins on nested elements */
+li p,
+li .p-like,
+li ul,
+li ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* max values */
+img,
+table,
+td,
+blockquote,
+code,
+pre,
+textarea,
+input,
+video,
+svg {
+  max-width: 100%;
+}
+
+/* blocks that must contain floats */
+.clearfix::after,
+.line::after {
+  content: "";
+  display: table;
+  clear: both;
+  border-collapse: collapse;
+}
+
+.ir{
+	text-indent:-9999px;
+}
+/* Global CSS */
+/* fin des elements de construction */
