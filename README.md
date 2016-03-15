@@ -2,5 +2,5 @@
 
 - Gyss Nicolas
 - Maurouard Alexandre n° 
-- Chapaud Pierre
+- Chapaud Pierre n°
 - Ildiko Lefevre n°
