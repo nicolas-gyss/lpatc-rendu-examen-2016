@@ -3,4 +3,4 @@
 - Gyss Nicolas
 - Maurouard Alexandre
 - Chapaud Pierre
-- Ildiko Lefevre
+- Ildiko Lefevre n°
