@@ -3,4 +3,4 @@
 - Gyss Nicolas
 - Maurouard Alexandre
 - Chapaud Pierre
-- Nom + Prénom + Numéro d'étudiant
+- Ildiko Lefevre
