@@ -1,5 +1,5 @@
 # Groupe N°1
 
 - Gyss Nicolas
-- Nom + Prénom + Numéro d'étudiant
+- Maurouard Alexandre
 - Nom + Prénom + Numéro d'étudiant
