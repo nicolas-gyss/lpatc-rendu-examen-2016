@@ -1,6 +1,6 @@
 # Groupe N°1
 
-- Gyss Nicolas (modif)
+- Gyss Nicolas
 - Maurouard Alexandre
 - Chapaud Pierre
 - Nom + Prénom + Numéro d'étudiant
