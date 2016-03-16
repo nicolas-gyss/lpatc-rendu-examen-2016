@@ -140,3 +140,44 @@ svg {
 }
 /* Global CSS */
 /* fin des elements de construction */
+
+/* DEBUT DE MAIN - ILDIKO */
+div.block_blanc{
+    margin: 0 auto;
+    background-color: #F2F7F7;
+}
+
+/* FEATURED */
+
+.featured{
+    padding: 50px 0;
+}
+div.featured > div{
+    float: left;
+    width: 275px;
+    text-align: center;
+}
+.featured h3{
+    color: #F28858;
+}
+.featured p{
+    color: #687170;
+}
+.calltoaction{
+    width: 180px;
+    background-color: #77A1A0;
+    border-radius: 5px ;
+    margin: 30px auto;
+    padding: 15px 25px;
+    box-shadow: 0 4px #576F6F;
+}
+.calltoaction a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* SUPPORT  */
+
+/* LIST ET PERFORMANCE */
+
+/* FIN MAIN */
