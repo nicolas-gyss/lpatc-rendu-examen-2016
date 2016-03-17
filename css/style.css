@@ -42,6 +42,7 @@ body {
   font-family:  verdana,helvetica, sans-serif;
   line-height: 1.5;
     display:inline-block;
+    width:100%;
 }
 
 /* font-sizing for content */
@@ -140,7 +141,115 @@ svg {
 	text-indent:-9999px;
 }
 /* Global CSS */
+
+.row{
+    width:940px;
+    margin:auto;
+
+}
+
+.rightNG{
+
+    float:right;
+}
+
+
 /* fin des elements de construction */
+
+
+/*header - Nico*/
+.header-main{
+
+    color: #ffffff;
+    font-family: "Open Sans";
+
+
+}
+
+.header-main a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header-main .header-top-contener a{
+    text-decoration: none;
+    color: #c8d8d7;
+}
+
+.header-main ul, .header-main li, .header-main p{
+
+    display: inline;
+
+}
+
+.header-top-contener{
+    
+    background: #576f6f;
+    font-size:12px;
+    color:#c8d8d7;
+    
+}
+
+.top-header {
+    padding: 14px 14px 16px 14px;
+
+}
+
+
+.top-header ul, .bottom-header ul{
+    margin:0px;
+    padding:0px;
+}
+
+.top-header li{
+    padding: 0px 21px 0px 0px;
+}
+
+
+.top-header li:first-child{
+    padding: 0px 25px 0px 0px;
+}
+
+.top-header li:last-child{
+    padding: 0px 0px 0px 0px;
+}
+
+.header-bottom-contener{
+
+    background: #f28858;
+    border-bottom:3px solid #b56642;
+}
+
+.bottom-header{
+    padding: 17px 14px 16px 14px;
+
+}
+.bottom-header li{
+    padding:0px 40px 0px 0px;
+}
+
+.bottom-header li:last-child{
+    padding:0px 0px 0px 0px;
+}
+
+.bottom-header img{
+    margin:0px 100px 0px 0px;
+}
+
+.bottom-header li a{
+    font-weight:bold;
+}
+
+.active{
+    width: 70px;
+    background-color: #cd8757;
+    border-radius: 5px ;
+    /*margin: 30px auto;*/
+    margin:13px 0px 14px 0px;
+    padding: 8px 14px 9px 14px;
+    box-shadow: 0 3px #b56642;
+}
+
 
 /* DEBUT DE MAIN - ILDIKO */
 div.block_blanc{
