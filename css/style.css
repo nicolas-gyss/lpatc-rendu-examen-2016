@@ -302,10 +302,21 @@ svg {
 
 }
 
-.content > div > ul >li{
-    display : block;
-    
-    position: absolute;
+.content > div > ul > li{
+
+}
+
+
+.content > div > ul > li:before{
+    content: "> ";
+}
+
+.text li{
+    display: block;
+    position:relative;
+    width: auto;
+    list-style: none;
+    margin-top: 10px;
 
     background-color: #8c9796;
     text-transform: uppercase;
