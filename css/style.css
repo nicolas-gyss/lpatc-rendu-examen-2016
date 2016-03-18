@@ -256,7 +256,63 @@ svg {
     padding: 8px 14px 9px 14px;
     box-shadow: 0 3px #b56642;
 }
+/*************************************************/
+/*********************SLIDER ALEX WIP***************/
+/*************************************************/
 
+.slide{
+    height:400px;
+    background-color: #c8d8d7 ;
+
+}
+.content_slider{
+    margin: auto;
+
+}
+
+.slider{
+
+    height:400px;
+}
+
+.tri_slide{
+    /*correction bloc*/
+    position: relative;
+    display: inline-block;
+
+    width: 940px;
+    height: 0;
+    border-left: 470px solid transparent;
+    border-right: 470px solid transparent;
+    border-top: 90px solid #c8d8d7;
+}
+
+.inverse{
+    background-color: #f28858 !important;
+}
+
+.content > div > h3{
+    position: absolute;
+
+    background-color: #8c9796;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-family:"Open Sans";
+
+}
+
+.content > div > ul >li{
+    display : block;
+    
+    position: absolute;
+
+    background-color: #8c9796;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-family:"Open Sans";
+}
 /*************************************************/
 /*********************NEWS - NICO WORK IN PROGRESS***************/
 /*************************************************/
@@ -506,7 +562,6 @@ div.featured > div{
     position: relative;
     display: inline-block;
     margin-top: -75px;
-    position: relative;
     width: 940px;
     top: -15px;
     height: 0;
