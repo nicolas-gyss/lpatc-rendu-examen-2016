@@ -436,13 +436,27 @@ div.featured > div{
 }
 
 .triangle {
-	display: inline-block;
-	margin-top:-83px;
+
+    /*correction bloc*/
+    position: relative;
+    display: inline-block;
+    margin-top: -75px;
+    position: relative;
+    width: 940px;
+    top: -15px;
+    height: 0;
+    border-left: 470px solid transparent;
+    border-right: 470px solid transparent;
+    border-bottom: 90px solid #f28858;
+    /***********************************************/
+    /*
+    display: inline-block;
+    margin-top:-83px;
 	width: 0; 
 	height: 0; 
 	border-left: 660px solid transparent; 
 	border-right: 660px solid transparent; 
-	border-bottom: 84px solid #f28858;
+	border-bottom: 84px solid #f28858;*/
 }
 
 .footer .about {
@@ -523,18 +537,24 @@ div.featured > div{
 	width: 100%;	
 	background: #b56642;
 	float: left;
-	margin-top: 320px;
+	margin-top: 325px;
 	color: black;
 	text-decoration: none;
 }
 
+.end-footer ol{
+    margin-top: 0px;
+    float: right;
+    padding-top: 15px;
+}
+/*
 .text-end-footer {
 	display:inline-block;
 	margin-left: auto;
 	margin-right: auto;
 	text-align:center;
 }
-
+*/
 .end-footer p {
 	width: 500px;
 	padding: 15px;
