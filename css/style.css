@@ -261,7 +261,7 @@ svg {
 /*********************NEWS - NICO WORK IN PROGRESS***************/
 /*************************************************/
 
-.newsNG h3{
+.newsNG h3,.newsNG h4 {
     font-size:22px;
     color: #f28858;
     text-transform: uppercase;
@@ -271,6 +271,7 @@ svg {
 
 .newsNG{
     padding-top:105px;
+    padding-bottom:20px;
 
 }
 
@@ -278,14 +279,78 @@ svg {
     width: 298px;
     height: 506px;
     border: 1px solid #e0e0e0;
-    padding: 0px 20px 18px 20px;
     border-radius: 5px;
     display: inline-block;
     margin-right: 18px;
+    overflow: hidden;
+    box-shadow: 0 4px #e0e0e0;
+}
+
+.news-articles h4{
+
+    font-size:18px;
+    text-align: center;
+    width: 220px;
+    margin: auto;
+
+}
+
+.news-middle{
+
+    padding: 20px 20px 18px 20px;
+    text-align: center;
+}
+
+.news-articles p, .news-articles a{
+    font-family: "Open Sans";
+    font-size:12px;
+    color:#7f8c8c;
+}
+
+.news-articles a{
+    font-family: "Open Sans Semibold";
+    text-decoration: none;
+    color:#77a1a0;
+    font-style:italic;
+}
+
+.news-articles .a_special{
+    font-size:11px;
+    font-family:"Open Sans Light";
+    float: right;
+
+
+}
+
+.texte-centre{
+    margin-top:15px;
+    margin-bottom:15px;
+    font-weight:normal;
+}
+
+.featured_wheel{
+    position: relative;
+    left:120px;
+    margin-top:-28px;
+
 }
 
 .news-articles:last-child{
     margin-right:0px;
+}
+
+.news-bottom{
+
+    border-top: 1px solid #e1e1e1;
+    margin-top: 15px;
+}
+
+.news-articles p:last-child{
+    margin-top: 12px;
+    text-align: left;
+    color:#9a9a9a;
+    font-size:11px;
+    font-style: italic;
 }
 
 /* DEBUT DE MAIN - ILDIKO */
