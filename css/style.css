@@ -152,6 +152,11 @@ svg {
 
 }
 
+.main-content{
+    top:-11px;
+    position: relative;
+}
+
 .rightNG{
 
     float:right;
@@ -267,31 +272,29 @@ svg {
 }
 .content_slider{
     margin: auto;
+    height:500px;
 
 }
 
-.slider{
-
-    height:400px;
-}
 
 .tri_slide{
     /*correction bloc*/
     position: relative;
     display: inline-block;
-
+    top: 40px; /*ajout nico*/
     width: 940px;
     height: 0;
     border-left: 470px solid transparent;
     border-right: 470px solid transparent;
     border-top: 90px solid #c8d8d7;
+
 }
 
 .inverse{
     background-color: #f28858 !important;
 }
 
-.content > div > h3{
+/*.content > div > h3{
     position: absolute;
 
     background-color: #8c9796;
@@ -300,7 +303,7 @@ svg {
     color: white;
     font-family:"Open Sans";
 
-}
+}*/
 
 .content > div > ul > li{
 
@@ -311,18 +314,49 @@ svg {
     content: "> ";
 }
 
-.text li{
-    display: block;
-    position:relative;
-    width: auto;
-    list-style: none;
-    margin-top: 10px;
+.text{
+    width: 500px;
+    height:360px;
+    padding-top:75px;
 
+}
+
+.text h3{
     background-color: #8c9796;
     text-transform: uppercase;
     padding: 10px 20px 10px 20px;
     color: white;
     font-family:"Open Sans";
+    font-size:23px;
+    box-shadow: 0px 3px #b6bfb6;
+}
+
+.text ul{
+    padding:0px;
+    margin:0px;
+}
+
+.text li{
+    display: block;
+    position:relative;
+    width: auto;
+    list-style: none;
+   /* margin-top: 10px;*/
+    margin:20px 0px;
+
+    text-transform: uppercase;
+
+    color: white;
+    font-family:"Open Sans";
+    font-size:16px;
+
+}
+
+.text .special-al{
+    background-color: #8c9796;
+    padding: 9px 5px 12px 5px;
+    font-weight:bold;
+
 }
 /*************************************************/
 /*********************NEWS - NICO WORK IN PROGRESS***************/
