@@ -155,6 +155,7 @@ svg {
 .main-content{
     top:-11px;
     position: relative;
+    overflow: hidden;
 }
 
 .rightNG{
@@ -266,13 +267,14 @@ svg {
 /*************************************************/
 
 .slide{
-    height:400px;
+
     background-color: #c8d8d7 ;
 
 }
 .content_slider{
     margin: auto;
-    height:500px;
+    background:url("../img/img-slide-device.png") no-repeat;
+    /*height:500px;*/
 
 }
 
@@ -281,14 +283,52 @@ svg {
     /*correction bloc*/
     position: relative;
     display: inline-block;
-    top: 40px; /*ajout nico*/
+    top: 94px; /*ajout nico*/
     width: 940px;
-    height: 0;
+    height: 80px;
     border-left: 470px solid transparent;
     border-right: 470px solid transparent;
     border-top: 90px solid #c8d8d7;
 
 }
+
+.calltoaction-spe, .content_slider .buttons{
+    width: 180px;
+    background-color: #77A1A0;
+    border-radius: 5px ;
+   /*margin: 30px auto;*/
+    padding: 14px 25px;
+    box-shadow: 0 4px #b56642;
+    text-align: center;
+}
+
+.content_slider #back.buttons, .content_slider #next.buttons{
+    width:50px;
+}
+
+.calltoaction-spe a, .content_slider .buttons a{
+    color: #fff;
+    text-decoration: none;
+    font-family:"Open Sans";
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size:18px;
+
+}
+
+.content_slider .buttons span{
+    color: white;
+    font-size: 40px;
+    line-height: 20px;
+    margin-left: -15px;
+}
+
+.content_slider .buttons{
+
+    margin-top: 205px;
+
+}
+
 
 .inverse{
     background-color: #f28858 !important;
@@ -316,8 +356,9 @@ svg {
 
 .text{
     width: 500px;
-    height:360px;
+   /* height:360px;*/
     padding-top:75px;
+    margin-left: 14px;
 
 }
 
@@ -333,7 +374,7 @@ svg {
 
 .text ul{
     padding:0px;
-    margin:0px;
+    margin:40px 0px 30px 0px;
 }
 
 .text li{
@@ -354,9 +395,19 @@ svg {
 
 .text .special-al{
     background-color: #8c9796;
-    padding: 9px 5px 12px 5px;
+    padding: 6px 5px 6px 5px;
     font-weight:bold;
+    box-shadow: 2px 3px 2px #a0a9a5;
 
+}
+.special-al:before{
+    display: inline-block;
+    width:7px;
+    height:12px;
+    content: '';
+    background:url("../img/picto_fleche.png") no-repeat;
+    margin-left: 7px;
+    margin-right:7px;
 }
 /*************************************************/
 /*********************NEWS - NICO WORK IN PROGRESS***************/
@@ -456,7 +507,7 @@ svg {
 
 /* DEBUT DE MAIN - ILDIKO */
 div.block_blanc{
-    margin: 0 auto;
+    margin: 85px auto 0; /*margin: 0 auto;*/
     background-color: #FFFFFF;
     border-radius: 40px;
 
