@@ -262,6 +262,77 @@ svg {
     padding: 8px 14px 9px 14px;
     box-shadow: 0 3px #b56642;
 }
+
+/*************************************************/
+/*********************LOGIN TAB***************/
+/*************************************************/
+#special{
+    position:relative;
+}
+.login-tab{
+    display:none;
+    width: 280px;
+    height:250px;
+    position: absolute;
+    z-index:100;
+    background-color: #f5f5f5 ;
+    right:0;
+
+    margin-top: -12px;
+}
+
+.login-title{
+    width:100%;
+    background-color: #576f6f;
+    padding-top: 8px;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: bold;
+    height:40px;
+    color: white;
+}
+
+.login-content{
+    margin-right: 35px;
+    margin-left: 35px;
+    width:100%;
+}
+
+.login-form{
+    display:inline-flex;
+    margin-top: 20px;
+}
+
+.icon-container{
+    background-color: #576f6f;
+    width: 40px;
+    height: 40px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+.login-input{
+    height:40px;
+    width: 180px;
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.login-button{
+    width:220px !important;
+    margin-top:20px;
+    height: 40px;
+    color: white;
+    font-family: "Open Sans";
+    font-weight: bold;
+    padding-top: 10px !important;
+    font-size: 15px;
+
+
+}
+
 /*************************************************/
 /*********************SLIDER ALEX WIP***************/
 /*************************************************/
@@ -297,12 +368,12 @@ svg {
     background-color: #77A1A0;
     border-radius: 5px ;
    /*margin: 30px auto;*/
-    padding: 14px 25px;
+    padding: 8px;
     box-shadow: 0 4px #b56642;
     text-align: center;
 }
 
-.content_slider #back.buttons, .content_slider #next.buttons{
+.content_slider .back.buttons, .content_slider .next.buttons{
     width:50px;
 }
 
@@ -715,12 +786,12 @@ progress::-webkit-progress-bar{
 .subtitle{
     font-style:italic;
 }
-#back{
+.back{
     left: -5px;
 
 }
 
-#next{
+.next{
     right:-5px;
 }
 

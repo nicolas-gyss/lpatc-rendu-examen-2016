@@ -13,7 +13,7 @@
 
 <title>Groupe 1 - Intégration Web</title>
 
-<meta name="description" content="Exercice d'intégration Web en LPATC 2016 réaliser par le groupe 1 Alexandre, Nicolas, Pierre, Ildiko"/>
+<meta name="description" content="Exercice d'intégration Web en LPATC 2016 réalisé par le groupe 1 Alexandre, Nicolas, Pierre, Ildiko"/>
 <meta name="keywords" content="exercice lpatc intégration web"/>
 
 
@@ -23,7 +23,8 @@
 
 </head>
 
-<body>
+<body onload="document.getElementById('login-tab').style.display='none'">
+
 
 <div class="header-main">
     <!--Nicolas-->
@@ -33,7 +34,7 @@
             <ul class="rightNG">
                 <li><a href="" title="Sales Chat">Sales Chat</a></li>
                 <li><a href="" title="Login">Login</a></li>
-                <li><a href="" title="Sign up">Sign Up</a></li>
+                <li><a href="#" onclick="if(document.getElementById('login-tab').style.display != 'none'){document.getElementById('login-tab').style.display='none'}else{document.getElementById('login-tab').style.display='block'}" title="Sign up">Sign Up</a></li>
             </ul>
         </div>
     </div>
@@ -50,7 +51,33 @@
             </ul>
         </div>
     </div>
+
 </div>
+
+
+<div class="row" id="special">
+    <div class="login-tab" id="login-tab">
+        <div class="login-title">
+            <p>Login into Your Account</p>
+        </div>
+        <div class="login-content">
+            <form action="" method="POST">
+                <div class="login-form">
+                    <div class="icon-container"><img src="img/usericon.png" title="login icon"></div>
+                    <input type="text" class="login-input" placeholder="yourname@mail.com">
+                </div>
+                <div class="login-form">
+                    <div class="icon-container"><img src="img/locked_icon.png" title="password icon"></div>
+                    <input type="password" class="login-input" placeholder="*******">
+                </div>
+
+                <p class="calltoaction-spe inverse login-button">LOGIN</p>
+            </form>
+        </div>
+    </div>
+
+</div>
+
 
 <div class="main-content clearfix">
 
@@ -59,12 +86,12 @@
             <!--Alexandre-->
             <!--slider principal-->
 
-                <div class="buttons inverse" id="back">
-                    <span><</span>
+                <div class="buttons inverse back">
+                    <img src="img/prev-icon.png" alt="précédent">
                 </div>
 
-                <div class="buttons inverse" id="next">
-                    <span>></span>
+                <div class="buttons inverse next">
+                    <img src="img/next-icon.png" alt="suivant">
                 </div>
 
                 <div class="text">
@@ -77,7 +104,7 @@
                         <li><span class="special-al">flexible contracts</span></li>
                     </ul>
 
-                    <p class="calltoaction-spe inverse "><a href="#" title="See Features">See features</a></p>
+                    <p class="calltoaction-spe inverse"><a href="#" title="See Features">See features</a></p>
                 </div>
 
 
@@ -157,8 +184,8 @@
 
 
     <div class="avis_client">
-        <div class="buttons" id="back">
-            <span><</span>
+        <div class="buttons back">
+            <img src="img/left.png" alt="back">
         </div>
 
         <div class="peoples">
@@ -187,8 +214,8 @@
             </div>
         </div>
 
-        <div class="buttons" id="next">
-            <span>></span>
+        <div class="buttons next" >
+            <img src="img/right.png" alt="next">
         </div>
 
     </div>
