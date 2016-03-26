@@ -24,7 +24,6 @@ figure {
 }
 
 html {
-	background-image:url('../img/fond-carreau.jpg');
 	margin:0px;
 	padding:0px;
   /* set base font-size to equiv "10px", which is adapted to rem unit */
@@ -653,6 +652,11 @@ p.calltoaction{
     font-weight: normal;
     margin: 0;
 }
+
+.support p a{
+    text-align: center;
+}
+
 .support > div{
     float: left;
 }
@@ -697,7 +701,7 @@ p.alternate{
 }
 
 .performance > div{
-    /*float: left;*/
+    /*float: left;  Bug avec la partie d'adresse*/
     width: 400px;
     height: 240px;
     margin-bottom: 50px;
@@ -868,7 +872,7 @@ progress::-webkit-progress-bar{
 .about p {
 	font-size: 15px;
  	font-family: "Open Sans";
-	font-weight: regular;
+	font-weight: normal;
 	color: #fff;
 }
 
@@ -971,34 +975,41 @@ progress::-webkit-progress-bar{
 	display: inline-block;
 }
 
-.end-footer a {
+.end-footer a {   /* grosse erreur  */
 	display: inline-block;
 	width: 10px;
 	padding:10px;
 	text-indent: -9999px;
-	font-size; 0px;
-	line-height: 0px;
-	background-image: url('../img/social-sprint.png');
+	/*line-height: 0px;*/
+	/*background-image: url('../img/social-sprint.png');*/
 }
 
 .end-footer .twitter {
-	background-position: 0 0;
+	/*background-position: 0 0;*/
+    background: url('../img/social-sprint.png') 0px 0px no-repeat;
 }
 
 .end-footer .facebook {
-	background-position: -23px 0;
+	/*background-position: -23px 0;*/
+    /*background-image: url('../img/social-sprint.png');*/
+    background: url('../img/social-sprint.png') -23px 0px no-repeat;
 }
 
 .end-footer .googleplus {
-	background-position: -46px 0;
+	/*background-position: -46px 0;
+    background-image: url('../img/social-sprint.png');*/
+    background: url('../img/social-sprint.png') -46px 0px no-repeat;
 }
 
 .end-footer .rss {
-	background-position: -68px 0;
+	/*background-position: -68px 0;
+    background-image: url('../img/social-sprint.png');*/
+    background: url('../img/social-sprint.png') -68px 0px no-repeat;
 }
 
 .end-footer .linkedin {
 	background-position: -90px 0;
+    background-image: url('../img/social-sprint.png');
 }
 
 
