@@ -635,7 +635,7 @@ p.calltoaction{
 .support{
     height: 100px;
     background-color: #f5f5f5;
-    padding: 22px 27px 24px 27px;
+    padding: 15px 27px 24px 27px;
     border-radius: 5px;
 }
 .support h2{
@@ -646,7 +646,9 @@ p.calltoaction{
     margin: 0;
 }
 .support p{
+    display:inline-block;
     color: #687170;
+    line-height: 12px;
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: normal;
@@ -654,7 +656,7 @@ p.calltoaction{
 }
 
 .support p a{
-    text-align: center;
+    padding: 10px 33px 12px 36px;
 }
 
 .support > div{
@@ -700,24 +702,62 @@ p.alternate{
     padding-left: 10px;
 }
 
+.performance p:before{
+    display: inline-block;
+    content: "";
+    width:11px;
+    height: 9px;
+    margin-right:3px;
+    background: url("../img/coche.png") no-repeat 0px 0px;
+}
+
 .performance > div{
-    /*float: left;  Bug avec la partie d'adresse*/
+    float: left;
     width: 400px;
     height: 240px;
     margin-bottom: 50px;
-    padding: 0 14px;
+    padding: 0px 14px;
+
 }
 .performance > div:first-child{
     margin-right: 100px;
 }
+
+.performance > div:last-of-type{
+    padding-left:0px;
+}
+
 .performance span{
     font-family: "FontAwesome";
     color: #77a1a0;
     padding-right: 3px;
 }
+
+.barre {
+    width: 427px;
+    background: #f5f5f5;
+    position: relative;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.barre:after {
+    content: "";
+    position: absolute;
+    background: #c8d8d7;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.barre[data-length="85"]:after { width: 85% }
+.barre[data-length="95"]:after { width: 95% }
+.barre[data-length="92"]:after { width: 92% }
+.barre[data-length="82"]:after { width: 82% }
+
 progress{
     border: none;
-    width: 434px;
+    width: 427px;
     height: 30px;
     margin-bottom: 10px;
     -webkit-appearance: none;
@@ -739,7 +779,7 @@ progress::-webkit-progress-bar{
     background-color: #f28858; /*darkorange Modif. par Nico.*/
     width: 100%;
     height: 400px;
-    margin-top: -70px;
+    /*margin-top: -70px;*/
     z-index:-1;
     position:relative;
 
@@ -973,43 +1013,42 @@ progress::-webkit-progress-bar{
 .end-footer li {
 	float: right;
 	display: inline-block;
+    padding-left:3px;
 }
 
-.end-footer a {   /* grosse erreur  */
+.end-footer li:last-child{
+    padding-left:0px;
+}
+
+.end-footer a {
 	display: inline-block;
-	width: 10px;
-	padding:10px;
+	width: 20px;
+    height:20px;
 	text-indent: -9999px;
-	/*line-height: 0px;*/
-	/*background-image: url('../img/social-sprint.png');*/
+
 }
 
 .end-footer .twitter {
-	/*background-position: 0 0;*/
     background: url('../img/social-sprint.png') 0px 0px no-repeat;
 }
 
 .end-footer .facebook {
-	/*background-position: -23px 0;*/
-    /*background-image: url('../img/social-sprint.png');*/
+
     background: url('../img/social-sprint.png') -23px 0px no-repeat;
 }
 
 .end-footer .googleplus {
-	/*background-position: -46px 0;
-    background-image: url('../img/social-sprint.png');*/
+
     background: url('../img/social-sprint.png') -46px 0px no-repeat;
 }
 
 .end-footer .rss {
-	/*background-position: -68px 0;
-    background-image: url('../img/social-sprint.png');*/
+
     background: url('../img/social-sprint.png') -68px 0px no-repeat;
 }
 
 .end-footer .linkedin {
-	background-position: -90px 0;
-    background-image: url('../img/social-sprint.png');
+    background: url('../img/social-sprint.png') -90px 0px no-repeat;
 }
 
 
