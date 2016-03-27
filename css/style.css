@@ -152,7 +152,7 @@ svg {
 }
 
 .main-content{
-    top:-11px;
+    /*top:-11px;*/
     position: relative;
     overflow: hidden;
 }
@@ -270,67 +270,108 @@ svg {
 }
 .login-tab{
     display:none;
-    width: 280px;
-    height:250px;
+    width: 300px;
+    height:254px;
     position: absolute;
     z-index:100;
     background-color: #f5f5f5 ;
     right:0;
+    border-bottom: 3px solid #e0e0e0;
 
-    margin-top: -12px;
+    /*margin-top: -12px;*/
 }
 
 .login-title{
     width:100%;
     background-color: #576f6f;
-    padding-top: 8px;
+    padding-top: 12px;
     text-align: center;
     font-family: "Open Sans";
     font-weight: bold;
-    height:40px;
+    height:47px;
     color: white;
 }
 
 .login-content{
-    margin-right: 35px;
-    margin-left: 35px;
-    width:100%;
+    margin-left: 29px;
 }
 
 .login-form{
     display:inline-flex;
+    margin-top: 10px;
+}
+
+.login-form:first-child{
+    display:inline-flex;
     margin-top: 20px;
 }
 
+
 .icon-container{
     background-color: #576f6f;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     padding-top: 8px;
     text-align: center;
+    border-radius: 3px 0px 0px 3px;
 }
 
 .login-input{
-    height:40px;
-    width: 180px;
-    font-size: 12px;
+    height: 45px;
+    width: 195px;
+    font-size: 14px;
+    color: #e0e0e0;
     font-family: "Open Sans";
     font-weight: bold;
     padding-left: 15px;
+    border: none;
+    border-radius: 0px 3px 3px 0px;
 }
 
 .login-button{
-    width:220px !important;
-    margin-top:20px;
+    width:240px !important;
+    margin-top:15px;
     height: 40px;
     color: white;
     font-family: "Open Sans";
     font-weight: bold;
     padding-top: 10px !important;
     font-size: 15px;
-
-
 }
+
+.login-input::-webkit-input-placeholder { color:#e0e0e0; }
+.login-input::-moz-placeholder { color:#e0e0e0; } /* firefox 19+ */
+.login-input:-ms-input-placeholder { color:#e0e0e0; } /* ie */
+
+.login-input.spe::-webkit-input-placeholder {
+    color:#c8d8d7;
+    letter-spacing:5px;
+    font-size:20px;
+    line-height: 18px;
+}
+
+.login-input.spe::-moz-placeholder {
+    color:#c8d8d7;
+    letter-spacing:5px;
+    font-size:20px;
+    line-height: 45px;
+} /* firefox 19+ */
+
+.login-input.spe:-ms-input-placeholder {
+    color:#c8d8d7;
+    letter-spacing:5px;
+    font-size:20px;
+    line-height: 45px;
+} /* ie */
+
+.login-input.spe:-moz-placeholder {
+    color:#c8d8d7;
+    letter-spacing:5px;
+    font-size:20px;
+    line-height: 45px;
+}
+
+
 
 /*************************************************/
 /*********************SLIDER ALEX WIP***************/
@@ -599,9 +640,10 @@ div.block_blanc{
     margin-left: 0;
 }
 .featured h3{
+    font-family: "Open Sans";
     color: #F28858;
     font-size: 22px;
-    font-weight: normal;
+    font-weight: bold;
     margin: 25px 0;
 }
 .featured p{
@@ -622,6 +664,11 @@ div.block_blanc{
     box-shadow: 0 4px #576F6F;
 
 }
+
+.featured p.calltoaction{
+    font-weight:bold;
+}
+
 p.calltoaction{
     font-size: 18px;
     padding: 15px 0;
